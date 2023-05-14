@@ -1,0 +1,26 @@
+body {
+  background-color: ghostwhite;
+}
+
+.svg-menu__path__seleccion, .svg-menu__path__seleccion * {
+  transition: all 0.25s ease-out;
+}
+
+.svg-menu__path__seleccion__text * {
+  font-family: arial;
+  text-transform: uppercase;
+}
+
+.svg-menu__path__seleccion {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.svg-menu__path__seleccion:hover, .svg-menu__path__seleccion.active {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.svg-menu__path__seleccion:hover .svg-menu__path__seleccion__background *, .svg-menu__path__seleccion.active .svg-menu__path__seleccion__background * {
+  opacity: 0.5;
+}
